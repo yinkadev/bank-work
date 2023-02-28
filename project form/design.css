@@ -1,0 +1,517 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+}
+
+nav{
+  width: 100%;
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+     position: fixed;
+  box-shadow: 1px 0 1px 0;
+  padding: 20px;
+}
+ .logo{
+  width: 80px;
+  margin-right: 20px;
+} 
+img{
+  width: 100%;
+}
+
+.world-link img{
+  width: 27px;
+}
+
+.world-link{
+  background-color:#bcf0fa;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bcf0fa;
+  margin-left: 90px;
+}
+  
+.menuBar{
+  width: 25px;
+  height: 25px;
+  display: none;
+}
+
+/* for mobile */
+
+.right ul, .left ul{
+  display:none;
+}
+
+.menuBar{
+  display: block;
+}
+
+/* navigation end */
+
+.joinApp{
+  display:none ;
+  }
+
+.getApp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+  transition:4s;
+}
+.getApp-Words{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ .getApp-Words, .appStore img{
+  width: 130px;
+}
+ .getApp-Words, .appStore{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 15px;
+}
+ .getApp-Words, h1{
+  color: #40196d;
+  font-size: 36px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 49px;
+  font-weight: 600;
+}
+
+ .getApp-Words,  h5{
+  color:#5a5a62;
+  margin-top: 10px;
+  font-family:sans-serif;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+}
+
+.globalImg{
+margin-top: calc(120px);
+width: 300px;
+}
+
+/* saving section */
+.savings{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 90px;
+}
+
+.savings .saveWords{
+ margin-bottom: 40px;
+}
+.savings .saveWords h1{
+  margin: 5px 0 20px 0;
+}
+
+.savings .saveWords h4{
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  font-family:serif;
+  color: #585757;
+}
+.savings .saveImg{
+  width: 250px;
+  margin-top: 10px; 
+}
+
+.spendDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.spendWord{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+ .spendWord h4{
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  font-family:serif;
+  color: #585757;
+}
+.spendWord h1{
+  margin: 5px 0 20px 0;
+  text-align: center;
+}
+.spendImg{
+  width: 300px;
+  margin-top: 50px;
+}
+
+.africanApp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4f8;
+    width: 340px;
+    margin: 13% auto;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px;
+    transition: 5s;
+}
+.africanApp .appWord h1{
+  font-size: 25px;
+  line-height: 37px;
+  padding-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.africanApp .appWord h4{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  line-height: 20px;  
+}
+
+.africanApp .appImg img{
+  display: none;
+}
+.footerFuture{
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.footerImg img{
+  width: 120px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.footerFuture .rows{
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+  justify-content:left ;
+  padding: 20px 10px;
+  font-family: sans-serif;
+}
+.footerFuture, .rows h4{
+  font-size: 13px;
+  padding: 10px;
+  color:hwb(0 65% 35%);  
+}
+
+.footerFuture, .rows h1{
+  font-size: 15px;
+}
+
+.appInfo{
+  margin:20px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.appInfo  a{
+  background-color: #40196d;
+  color: #ffff;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 5px 22px;
+}
+.appInfo img{
+  width: 110px;
+}
+footer .productP{
+ margin-bottom: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: Arial, Helvetica,;
+ font-size: 17px;
+ color: #585757;
+}
+
+
+footer .socialIcons{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+ margin-left: 20%;
+}
+
+footer .socialIcons p{
+  color: #40196d;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+footer .socialIcons a{
+  color: #40196d;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.socialIcons .icons{
+  margin-top:20px ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.socialIcons .icons a {
+  background-color:#eae7ee;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #9f8eb3;
+}
+@media(min-width:712px){
+  .world-link{
+    margin-left: 20px;
+  }
+  .getApp{
+    padding-top: 9rem;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: left;
+  }
+  .getApp-Words{
+    justify-content: flex-start;
+    align-items: left;
+  }
+  .getApp-Words, .appStore{
+    display: none;  
+  }
+  .joinApp{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #40196d;
+    color:#ffff;
+    padding: 18px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin: 5px auto;
+    width: 200px;    
+}
+
+.savings{
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-around;
+  padding-top: 10rem;
+}
+
+.savings .saveWords{
+  margin-bottom: 40px;
+  align-items: flex-start;
+  justify-content: left;
+ }
+ .savings .saveWords h1{
+   text-align: left;
+ }
+ 
+ .savings .saveWords h4{
+   text-align: left;
+   font-size: 15px;
+   line-height: 25px;
+ }
+
+ .savings .saveImg{
+   width: 250px;
+   margin-top: 0;
+ }
+
+ .spendDiv{
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.spendWord{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+
+ .spendWord h4{
+  text-align: left;
+  font-size: 15px;
+  line-height: 25px;
+}
+ .spendDiv .spendWord h1{
+  text-align: right;
+  margin: 5px 0 20px 0;
+  
+}
+.spendImg{
+  width: 300px;
+  margin-top: 50px;
+}
+.africanApp{
+  width: 90%;
+}
+
+ .africanApp .appWord{
+  align-items: center;
+  justify-content: center;
+}
+
+@media(min-width:1000px){
+ 
+ 
+.menuBar{
+  display: none;
+}
+
+.icons{
+  padding-left:5px;
+} 
+
+.join-kuda{
+  background-color: #40196d;
+  color:#ffff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-size: 14px;
+  
+}
+ul li .beta-btn{
+  background-color: transparent;
+  color:#40196d;
+  border: 1px solid #c7aee5;
+  padding: 2px 5px;
+  border-radius: 20%;
+  font-family: sans-serif;
+}
+.right ul li a, .left ul li a{
+  text-decoration: none;
+  color:#40196d;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+ nav .right ul , nav .left ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right ul li, .left ul li{
+  padding: 20px 20px;
+  list-style: none;
+}
+  .left{
+  margin-right: 12%;
+ }
+
+.world-link{
+  margin-left: 20px;
+}
+
+.menuworld{
+  display: none;
+}
+
+.globalImg img{
+  width: 300px;
+  margin-top: 0;
+}
+
+.getApp-Words, h1{
+margin-top: 10px;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+  text-align: left;
+}
+
+.getApp-Words,  h5{
+margin-top: 10px;
+font-size: 1.1rem;
+margin-top: 20px;
+margin-bottom: 30px;
+text-align: left;
+font-family: serif;
+color: #585757;
+}
+
+.joinApp{
+  margin-right:50%;
+  width: 200px;    
+}
+
+.savings .saveImg{
+width: 400px;
+}
+.africanApp{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.africanApp .appImg img{
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+.africanApp .appWord{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.africanApp .appWord h1{
+  font-size: 25px;
+}
+}
+.appInfo{
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin-left: 10%;
+}
+.appInfo  a{
+  padding: 10px 45px;
+}
+.appInfo img{
+  width: 150px;
+}
+footer .socialIcons{
+ margin-left: 10%;
+}
+
+}
